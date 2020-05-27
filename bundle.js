@@ -553,6 +553,7 @@ var _class = function () {
       document.body.removeAttribute('style');
       document.body.removeAttribute('data-display');
       document.querySelector('#vignette').setAttribute('uiState', 'hidden');
+      document.querySelector('.github-corner').remove();
       this.siteRoot.setAttribute('uiState', 'hidden');
       if (skrollr.get()) {
         this.skrollr.destroy();
